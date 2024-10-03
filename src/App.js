@@ -1,15 +1,14 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./home";
 
 function App() {
   return (
-      <Router>
+      <HashRouter>
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/rsvp_form" element={<rsvpo/>} />
         </Routes>
-      </Router>
+      </HashRouter>
   );
 }
 
