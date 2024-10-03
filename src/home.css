@@ -197,7 +197,6 @@ h1, h3 {
     height: auto;
     width: 100%;
     margin: 0;
-    cursor: pointer;
     z-index: 2;
     opacity: 0;
 }
@@ -220,6 +219,9 @@ input:hover + .radio_tile {
 
 input:checked + .radio_tile.label {
     color: white;
+}
+.radio_input_container, .radio_tile, .radio_tile label, .radio_tile input{
+    cursor: pointer!important;
 }
 
 .event_container {
