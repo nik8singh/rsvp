@@ -26,6 +26,8 @@ function App() {
     const submitRsvp = (event) => {
         console.log("calling Create API")
         setButtonText("Submitting...")
+        setButtonDisable(true)
+
         if (selectedPaathRsvp === "No")
             setSelectedPaathRsvp("0");
 
