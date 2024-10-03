@@ -117,7 +117,7 @@ function App() {
                                                onChange={e => setSelectedPaathRsvp(e.target.value)}
                                         />
                                         <div className="radio_tile">
-                                            <label htmlFor="no_paath">Unfortunately, I cannot attend, but my Ardaas for
+                                            <label htmlFor="no_paath">I cannot attend, but my Ardaas for
                                                 peace
                                                 will be with you.</label>
                                         </div>
