@@ -1,19 +1,9 @@
 import './home.css';
 
-import { Routes, Route, HashRouter } from "react-router-dom";
-import Home from "./home";
 import * as React from "react";
 import {rsvpApiEndpoint} from "./config";
 
 function App() {
-  // return (
-  //     <HashRouter>
-  //       <Routes>
-  //           <Route path="/" element={<Home />} />
-  //       </Routes>
-  //     </HashRouter>
-  // );
-
     const [buttonText, setButtonText] = React.useState('Submit');
     const [buttonDisable, setButtonDisable] = React.useState(false);
     const [nameValue, setNameValue] = React.useState('');
